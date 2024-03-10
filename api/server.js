@@ -92,7 +92,7 @@ res.send("We have got the post request on /data route");
 // WE ARE ALLOWING OUR APP TO LISTEN ON PORT 3000 
 var port = 4500; 
 app.listen(port, function() { 
-console.log("Server started successfully at port 3000!"); 
+console.log("Server started successfully at port "+port); 
 })
 
 
